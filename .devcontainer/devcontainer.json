@@ -3,7 +3,7 @@
     "name": "Codespace Test",
     // <p>For now, the bookserver requires an old version of asyncpg that
     //     doesn't build on Python 3.11, so stick with 3.10.</p>
-    "image": "danteev/texlive:latest",
+    "image": "oscarlevin/pretext:full",
 
     // <p>Configure tool-specific properties.</p>
     "customizations": {
@@ -18,7 +18,7 @@
                     "other": "off"
                 },
                 "editor.snippetSuggestions": "top",
-                "xml.validation.enabled": false,
+                "xml.validation.enabled": true,
                 // Enable word wrapping.
                 "editor.wordWrap": "on",
                 // Use the custom CodeChat Server start command to deal with port weirdness in a CodeSpace.
